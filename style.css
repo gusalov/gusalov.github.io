@@ -1,67 +1,74 @@
-body{
-    width: 390px;
-    background-color: rgb(201, 170, 123);
-    margin: 0;
-}
-.container {
-	max-width: 390px;
-}
-.img{
-    margin-top: 1px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto ;
-}
-a {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    background:orange;
-    border: 1px;
-    border-radius:10px 0px 10px 0px ;
-}
-ul{
-    display: flex;
-    gap: 20px;
-    padding: 0;
-}
-h2,h1{
-    color: white;
-}
-.Cartocka{
-    width: 390px;
-    height: 250px;
-    display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-.Foto{
-    width: 940px;
-    background-color: aqua;
-    border-radius:20px 0px 0px 0px ;
-}
-.Price{
-    width: 900px;
-    background-color: black;
-    border-radius:0px 0px 20px 0px ;
-    border: solid 1px red;
-}
-button{
-    background-color: yellow;
-    padding: 0;
-    border: solid 1px yellow;
-    border-radius:10px 0px 10px 0px ;
-    margin-top: 90px;
-}
-.Plus{
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: black;
-    color: white;
-}
-.prise{
-    color: black;
-     padding-left: 25px;
-    padding-right: 25px;
-}
+    body{
+        width: 390px;
+        background-color: rgb(201, 170, 123);
+        margin: 0;
+    }
+    .container {
+        max-width: 390px;
+    }
+    .img{
+        margin-top: 1px;
+        display: block;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        background:orange;
+        border: 1px;
+        border-radius:10px 0px 10px 0px ;
+    }
+    ul{
+        display: flex;
+        gap: 32px;
+        padding: 0;
+        margin-left: 10px;
+        margin-top: -40px;
+    }
+    h2,h1{
+        color: white;
+        margin-left: 10px
+    }
+    .Cartocka{
+        width: 370px;
+        height: 200px;
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .Foto{
+        width: 300px;
+        background-color: aqua;
+        border-radius:20px 0px 0px 0px ;
+    }
+    .Price{
+        width: 190px;
+        background-color: rgb(201, 170, 123);
+        border-radius:0px 0px 20px 0px ;
+        border: solid 1px rgb(0, 0, 0);
+    }
+    button{
+        background-color: yellow;
+        padding: 0;
+        margin-left: 10px;
+        border: solid 1px yellow;
+        border-radius:10px 0px 10px 0px ;
+        transition: background-color .2s linear;
+    }
+    .Plus{
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius:10px 0px 0px 0px ;
+        background-color: black;
+        color: white;
+    }
+    .prise{
+        color: black;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .button:hover
+    {
+        background-color: lightgreen;
+    }
