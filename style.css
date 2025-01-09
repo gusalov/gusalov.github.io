@@ -1,0 +1,65 @@
+body{
+    width: 1920px;
+    background-color: black;
+    margin: 0;
+}
+.img{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background:orange;
+    border: 1px;
+    border-radius:10px 0px 10px 0px ;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+h2,h1{
+    color: white;
+}
+.Cartocka{
+    width:1880px;
+    height: 250px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.Foto{
+    width: 940px;
+    background-color: aqua;
+    border-radius:20px 0px 0px 0px ;
+}
+.Price{
+    width: 900px;
+    background-color: black;
+    border-radius:0px 0px 20px 0px ;
+    border: solid 1px red;
+}
+button{
+    background-color: yellow;
+    padding: 0;
+    border: solid 1px yellow;
+    border-radius:10px 0px 10px 0px ;
+    margin-top: 90px;
+}
+.Plus{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: black;
+    color: white;
+}
+.prise{
+    color: black;
+     padding-left: 25px;
+    padding-right: 25px;
+}
