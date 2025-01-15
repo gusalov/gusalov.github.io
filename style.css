@@ -1,6 +1,6 @@
     body{
         width: 390px;
-        background-color: rgb(201, 170, 123);
+        background-color: rgb(237,220,204);
         margin: 0;
     }
     .container {
@@ -26,7 +26,7 @@
         margin-top: -40px;
     }
     h2,h1{
-        color: white;
+        color: rgb(0, 0, 0);
         margin-left: 10px
     }
     .Cartocka{
@@ -41,12 +41,13 @@
         width: 300px;
         background-color: aqua;
         border-radius:20px 0px 0px 0px ;
+        border: solid 1px rgb(150,124,109);
     }
     .Price{
         width: 190px;
         background-color: rgb(201, 170, 123);
         border-radius:0px 0px 20px 0px ;
-        border: solid 1px rgb(0, 0, 0);
+        border: solid 1px rgb(150,124,109);
     }
     button{
         background-color: yellow;
@@ -72,3 +73,7 @@
     {
         background-color: lightgreen;
     }
+   li      
+   {
+    list-style-type: none ;
+   }
