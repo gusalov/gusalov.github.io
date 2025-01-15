@@ -37,25 +37,20 @@
         margin-right: 10px;
         margin-top: 10px;
     }
-    .Foto{
-        width: 300px;
-        background-color: aqua;
-        border-radius:20px 0px 0px 0px ;
-        border: solid 1px rgb(150,124,109);
-    }
     .Price{
-        width: 190px;
+        width: 170px;
         background-color: rgb(201, 170, 123);
         border-radius:0px 0px 20px 0px ;
-        border: solid 1px rgb(150,124,109);
+        border: solid 1px rgb(201, 170, 123);
     }
     button{
         background-color: yellow;
         padding: 0;
-        margin-left: 10px;
+        margin-left: 20%;
         border: solid 1px yellow;
         border-radius:10px 0px 10px 0px ;
-        transition: background-color .2s linear;
+        margin-top: 10px;
+        
     }
     .Plus{
         padding-left: 5px;
@@ -72,8 +67,16 @@
     .button:hover
     {
         background-color: lightgreen;
+        transition: background-color .2s linear;
     }
    li      
    {
     list-style-type: none ;
+   }
+   .ffoto
+   {
+    width: 200px;
+    height: 198px;
+        border-radius:20px 0px 0px 0px ;
+        border: solid 1px rgb(201, 170, 123);
    }
